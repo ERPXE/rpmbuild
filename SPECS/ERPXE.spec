@@ -27,6 +27,7 @@ creating simple solutions for growth in Information Technology.
 %install
 
 %clean
+#rm -rf $RPM_BUILD_ROOT
 
 %files
 
