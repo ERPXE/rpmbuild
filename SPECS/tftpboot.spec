@@ -2,7 +2,7 @@
 # spec file for erpxe
 #
 Summary: ERPXE is a complete PXE solution featuring a broad range of recovery tools and various OS installations in one box.
-Name: ERPXE
+Name: tftpboot
 Version: 1.1
 Release: 8
 License: GPL
@@ -21,13 +21,14 @@ Founded in 2007 for internal use, ERPXE was developed in the field
 creating simple solutions for growth in Information Technology.
 
 %prep
+%setup
+echo Building %{name}-%{version}-%{release}
 
 %build
 
 %install
 
 %clean
-#rm -rf $RPM_BUILD_ROOT
 
 %files
 

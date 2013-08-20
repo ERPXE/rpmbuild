@@ -1,2 +1,2 @@
 cd SPECS
-rpmbuild -ba ERPXE.spec
+rpmbuild -ba tftpboot.spec
