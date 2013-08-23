@@ -8,7 +8,7 @@ Release: 8
 License: GPL
 Group: Applications/System
 Source: https://github.com/ERPXE/tftpboot/archive/1.1.tar.gz
-URL: http://www.erpxe.org
+URL: http://erpxe.org
 Vendor: ERPXE
 Packager: Etay Cohen-Solal <et@erpxe.com>
 
